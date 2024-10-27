@@ -1,0 +1,14 @@
+28119;Il segnale raffigurato è posto in vicinanza di un cantiere stradale;VERO
+28120;Il segnale raffigurato indica la direzione obbligatoria per autotreni ed autoarticolati;VERO
+28121;Il segnale raffigurato viene installato per il periodo di durata dei lavori stradali;VERO
+28122;Il segnale raffigurato obbliga tutti i veicoli a proseguire diritto;FALSO
+28123;Il segnale raffigurato preavvisa una direzione consigliata;FALSO
+28124;Il segnale raffigurato consiglia a tutti i veicoli di seguire la direzione indicata dalla freccia;FALSO
+28095;Il segnale raffigurato preannuncia una svolta obbligatoria a destra per gli autocarri di massa complessiva a pieno carico superiore a 3,5 tonnellate;VERO
+28096;Il segnale raffigurato vieta agli autocarri di massa complessiva a pieno carico superiore a 3,5 tonnellate di proseguire diritto;VERO
+28097;Il segnale raffigurato preannuncia un divieto di svolta a sinistra per gli autocarri di massa complessiva a pieno carico superiore a 3,5 tonnellate;VERO
+28098;Il segnale raffigurato preannuncia una svolta obbligatoria per i veicoli rappresentati nel segnale stesso;VERO
+28099;Il segnale raffigurato preannuncia che per gli autocarri è consigliato svoltare a destra;FALSO
+28100;Il segnale raffigurato preannuncia il divieto di svoltare a destra per i veicoli rappresentati in figura;FALSO
+28101;Il segnale raffigurato preannuncia un'area di parcheggio riservata agli autocarri di massa complessiva a pieno carico superiore a 3,5 tonnellate;FALSO
+28102;Il segnale raffigurato preannuncia una curva pericolosa a destra per gli autocarri in transito;FALSO
