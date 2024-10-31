@@ -1,5 +1,5 @@
-str2="Il segnale raffigurato preannuncia una svolta obbligatoria a destra per gli autocarri di massa superiore a 3,5 t"
-str1="lsegnole rollguroto preonnunclo uno svolto obblgotono o oestro per gl outocorn omosso supenore o 3,5t"
+str2="Con la patente di categoria A si possono condurre anche i tricicli di potenza superiore a 15 kW, qualunque sia l'età del conducente"
+str1="Con lo potente ol cotegono A sl possono conourre onche l tnclcl ol potenzo supenore ol5 KW,quolunque sloleto oel conoucente"
       
 def remove_single_quotes(input_string):
     return (input_string
@@ -37,6 +37,7 @@ def remove_single_quotes(input_string):
             .replace('U', 'l')
             .replace('L', 'l')
             .replace('é', 'e')
+            .replace('K', 'k')
             .replace('è', 'e')
             .replace('j', 'o')
             .replace('à', 'o')
