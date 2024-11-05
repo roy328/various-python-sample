@@ -1,0 +1,29 @@
+Signals
+Numero ministeriale: 01001
+V01) Il segnale raffigurato preavvisa un tratto di strada con pavimentazione irregolare
+V02) Il segnale raffigurato preavvisa un tratto di strada in cattivo stato
+V03) Il segnale raffigurato è un segnale di pericolo
+F04) Il segnale raffigurato preavvisa una discesa pericolosa
+F05) Il segnale raffigurato preavvisa una serie di curve
+F06) Il segnale raffigurato preavvisa una doppia curva
+Numero ministeriale: 01002
+V01) In presenza del segnale raffigurato  è necessario prevedere eventuali sbandamenti dei veicoli provenienti dal senso opposto
+V02) In presenza del segnale raffigurato  è necessario rallentare a causa delle condizioni del fondo stradale
+V03) In presenza del segnale raffigurato  è necessario tenere il manubrio con una presa più sicura
+F04) In presenza del segnale raffigurato  è necessario aumentare la velocità
+F05) In presenza del segnale raffigurato  è necessario diminuire la distanza di sicurezza
+F06) In presenza del segnale raffigurato  è necessario fermarsi se provengono veicoli dal senso opposto
+Numero ministeriale: 01003
+V01) Il segnale raffigurato è posto  di norma  150 m prima del dosso
+V02) Il segnale raffigurato preavvisa un tratto di strada con visibilità limitata
+V03) Il segnale raffigurato preavvisa una salita  seguita da una discesa  che limita la visibilità
+F04) Il segnale raffigurato preavvisa un tratto di strada deformata
+F05) Il segnale raffigurato preavvisa un tratto di strada in cattivo stato
+F06) Il segnale raffigurato preavvisa lavori in corso
+Numero ministeriale: 01004
+V01) In presenza del segnale raffigurato è necessario moderare la velocità
+V02) In presenza del segnale raffigurato è vietata l'inversione di marcia
+V03) In presenza del segnale raffigurato sono vietate la sosta e la fermata sia sul tratto in salita che in discesa
+F04) In presenza del segnale raffigurato è obbligatorio circolare al centro della strada
+F05) In presenza del segnale raffigurato è necessario prestare attenzione al tratto di strada in cattivo stato
+F06) In presenza del segnale raffigurato è consentita la sosta sul tratto in salita
