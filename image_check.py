@@ -1,8 +1,10 @@
+import os
 import boto3
 
-client = boto3.client('rekognition')
+os.environ['AWS_DEFAULT_REGION'] = 'us-west-2'  # Replace with your desired region
+client = boto3.client('kms')
 
-with open('pc.jpg', 'rb') as image:
+with open('1.png', 'rb') as image:
     response = client.detect_labels(Image={'Bytes': image.read()})
 
 for label in response['Labels']:
