@@ -53,3 +53,4 @@ if new_lines:
     print(f"Successfully added {len(new_lines)} new lines to the CSV.")
 else:
     print("No new lines were added. All lines are duplicates.")
+
