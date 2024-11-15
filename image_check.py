@@ -1,12 +1,23 @@
-import os
-import boto3
+from google.cloud import vision
 
-os.environ['AWS_DEFAULT_REGION'] = 'us-west-2'  # Replace with your desired region
-client = boto3.client('kms')
+def detect_computer_screen(image_path):
+    client = vision.ImageAnnotatorClient()
 
-with open('1.png', 'rb') as image:
-    response = client.detect_labels(Image={'Bytes': image.read()})
+    with open(image_path, 'rb') as image_file:
+        content = image_file.read()
 
-for label in response['Labels']:
-    if label['Name'] == 'Computer' or label['Name'] == 'Monitor':
-        print(f"Detected a {label['Name']} with confidence {label['Confidence']}")
+    image = vision.Image(content=content)
+    objects = client.object_localization(image=image).localized_object_annotations
+
+    for object in objects:
+        if object.name.lower() in ['computer monitor', 'screen', 'display']:
+            print(f"Detected a {object.name} with confidence {object.score}")
+            # Here you can extract the bounding box coordinates
+            # to crop the image to just the screen
+            vertices = object.bounding_poly.normalized_vertices
+            # Use these vertices to crop the original image
+        else:
+            print(object.name.lower())
+    return objects
+
+detect_computer_screen('pc.jpg')
